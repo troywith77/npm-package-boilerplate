@@ -1,7 +1,12 @@
 {
   "name": "npm-package-boilerplate",
   "version": "1.0.0",
-  "description": "Basic boilerplate for publish you npm package",
+  "description": "basic boilerplate for publish you npm package",
+  "keywords": [
+    "npm",
+    "package",
+    "boilerplate"
+  ],
   "main": "dist/index.js",
   "scripts": {
     "watch": "parcel watch index.js",

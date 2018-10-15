@@ -18,10 +18,10 @@ npm link [package]
 ```
 
 ## PUBLISH
-`npm login --registry` is needed before you publish.
 ```shell
 npm publish
 ```
+`npm login --registry` is needed before you publish. By running this command, Jest would run all test cases, then Parcel would build source files into a bundle, which would be our package's main file.
 
 ## USAGE
 ```javascript
