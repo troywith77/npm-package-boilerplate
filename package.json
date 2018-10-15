@@ -1,0 +1,25 @@
+{
+  "name": "npm-package-boilerplate",
+  "version": "1.0.0",
+  "description": "Basic boilerplate for publish you npm package",
+  "main": "dist/index.js",
+  "scripts": {
+    "watch": "parcel watch index.js",
+    "build": "parcel build index.js",
+    "test": "jest",
+    "prepublish": "npm test && npm run build"
+  },
+  "publishConfig": {
+    "registry": "public"
+  },
+  "author": "Tang Rui <ruitang307@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0",
+    "regenerator-runtime": "^0.12.1"
+  }
+}
