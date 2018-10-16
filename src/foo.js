@@ -1,1 +1,1 @@
-export default () => 'Hello World'
+export default (...args) => Math.max(...args)
