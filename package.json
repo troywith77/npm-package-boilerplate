@@ -7,10 +7,12 @@
     "package",
     "boilerplate"
   ],
+  "source": "./index.js",
   "main": "dist/index.js",
   "scripts": {
-    "watch": "parcel watch index.js",
-    "build": "parcel build index.js",
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "demo": "./node_modules/.bin/parcel example/index.html",
     "test": "jest",
     "prepublish": "npm test && npm run build"
   },
@@ -25,6 +27,7 @@
     "babel-jest": "^23.6.0",
     "babel-preset-env": "^1.7.0",
     "jest": "^23.6.0",
-    "regenerator-runtime": "^0.12.1"
+    "microbundle": "^0.6.0",
+    "parcel-bundler": "^1.10.3"
   }
 }

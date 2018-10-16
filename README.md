@@ -2,11 +2,25 @@
 
 ## WRITE TESTS FOR EVERY FUNCTION
 
-## READ THESE BEFORE YOU START
-· Use `yarn` to install you package's dependencies. Use `npm` to publish you package.
+<!-- ## READ THESE BEFORE YOU START -->
 
 ## DEVELOPMENT
-use `npm link` in your project directory to link this package to your working `node_modules/`, therefore you can test your package without publishing it to remote.
+
+```shell
+npm run build
+// build your package
+npm run dev
+// watch your file changes
+npm run demo
+// serve your example
+npm run test
+// run test cases
+npm run prepublish
+// actions before publish
+```
+
+## INSPECT PACKAGE IN LOCAL REPO
+use `npm link` in your package directory to make this package `global`, therefore you can link your package to your local repo and test it without publishing to remote.
 
 ```shell
  // in package dir
