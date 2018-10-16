@@ -3,7 +3,7 @@
 ## WRITE TESTS FOR EVERY FUNCTION
 
 ## READ THESE BEFORE YOU START
-· Use `Yarn` to install you package's dependencies. Use `npm` to publish you package.
+· Use `yarn` to install you package's dependencies. Use `npm` to publish you package.
 
 ## DEVELOPMENT
 use `npm link` in your project directory to link this package to your working `node_modules/`, therefore you can test your package without publishing it to remote.
