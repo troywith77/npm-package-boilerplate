@@ -1,5 +1,5 @@
 import foo from './foo';
 
-test(`foo says 'Hello World'`, () => {
-	expect(foo()).toBe('Hello World');
+test(`foo should return the max number of its arguments`, () => {
+	expect(foo(1, 2, 3, 4)).toBe(4);
 });

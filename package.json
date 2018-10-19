@@ -7,8 +7,10 @@
     "package",
     "boilerplate"
   ],
-  "source": "./index.js",
   "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.m.js",
+  "source": "src/index.js",
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",

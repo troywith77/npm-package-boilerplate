@@ -1,5 +1,5 @@
 'use strict';
 
-import foo from './src/foo';
+import foo from './foo';
 
 export default foo;
