@@ -1,5 +1,5 @@
-'use strict';
+import max from './max'
 
-import foo from './foo';
+console.log(max(1, 2, 3, 4, 5, 100))
 
-export default foo;
+export { max }
